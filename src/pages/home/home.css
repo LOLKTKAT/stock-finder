@@ -1,0 +1,39 @@
+.home {
+  display: flex;
+}
+.home__heading-container {
+  margin-top: 48px;
+}
+.home__sub-heading-container {
+  margin-top: 48px;
+}
+.home__left-section {
+  height: 100%;
+  width: 100%;
+  background-color: #99a7ff;
+  background-image: radial-gradient(
+      at 72% 33%,
+      hsla(222, 76%, 76%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 3% 72%, hsla(300, 64%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at 67% 88%, hsla(329, 90%, 78%, 1) 0px, transparent 50%),
+    radial-gradient(at 49% 95%, hsla(303, 72%, 60%, 1) 0px, transparent 50%),
+    radial-gradient(at 24% 20%, hsla(336, 96%, 68%, 1) 0px, transparent 50%),
+    radial-gradient(at 17% 66%, hsla(17, 85%, 76%, 1) 0px, transparent 50%),
+    radial-gradient(at 38% 83%, hsla(255, 60%, 79%, 1) 0px, transparent 50%);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.home__hand {
+  width: auto;
+  height: 260px;
+}
+.home__hand-container {
+  width: 118%;
+  display: flex;
+  justify-content: flex-end;
+}

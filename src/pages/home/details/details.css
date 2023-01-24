@@ -1,0 +1,15 @@
+.details {
+  display: flex;
+}
+.details__stock-info-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 9vw;
+  row-gap: 14px;
+}
+.details__stock-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
