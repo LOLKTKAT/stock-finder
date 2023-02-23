@@ -22,7 +22,7 @@ const Home = () => {
         </section>
         <section className="home__input">
           <SearchInput
-            placeholder={"Enter a ticker sybmol: AAPL, AMZN, TSLA"}
+            placeholder={"Enter a ticker symbol: AAPL, AMZN, TSLA"}
             classname={" big-search-input"}
           />
         </section>
