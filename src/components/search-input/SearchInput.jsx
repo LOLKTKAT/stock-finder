@@ -26,7 +26,7 @@ const SearchInput = ({ placeholder, classname }) => {
       />
       <input
         onChange={(e) => handleChange(e)}
-        placeholder="AAPL"
+        placeholder={placeholder}
         type="text"
         className={`search-input`}
       />

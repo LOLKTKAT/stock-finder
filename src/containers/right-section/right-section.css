@@ -14,17 +14,7 @@
 .right-section::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
-/* .hide {
-  display: none;
-} */
-/* .hide-btn {
-  position: absolute;
-  right: 24px;
-  top: 24px;
-} */
-/* .show {
-  display: block;
-} */
+
 .hide-btn {
   display: none;
 }
@@ -48,9 +38,12 @@
     right: 39px;
     top: 13px;
     position: absolute;
-    background-color: white;
     padding: 3px;
     border-radius: 50px;
+    color: black;
+  }
+  .white-hide.btn {
+    color: white;
   }
 
   .hide-btn {
