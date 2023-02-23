@@ -54,7 +54,7 @@ const WatchList = () => {
           transition={{ ease: "easeOut" }}
           className="watchlist-heading"
         >
-          Number of stocks: {watchListSymbols.length}
+          Number of stocks: {localStorageSymbols.length}
         </motion.h1>
         <br />
         <h3>

@@ -51,7 +51,6 @@ const WatchListCard = ({ stock }) => {
                 alt="stock-icon"
                 className="stock-card__stock-icon"
               />
-              {/* <MeatBallMenu stock={stock} /> */}
             </section>
             <section className="stock-card__row">
               <div className="stock-card__heading-container">
