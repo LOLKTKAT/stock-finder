@@ -1,0 +1,41 @@
+.watchlist {
+  display: flex;
+}
+
+.stocks-container {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+.watchlist__heading-container {
+  display: flex;
+  flex-direction: column;
+}
+.watchlist__right-section {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+.watchlist-heading {
+  margin-top: 42px;
+}
+.watchlist-more-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  font-size: 14px;
+  width: 66px;
+  transition: 150ms ease-out;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.watchlist-more-btn:hover {
+  font-weight: 500;
+  border-bottom: 2px solid black;
+}
+.watchlist-more-btn:active {
+  scale: 0.9;
+}

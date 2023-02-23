@@ -1,15 +1,16 @@
 .home {
   display: flex;
+  height: 100vh;
 }
 .home__heading-container {
-  margin-top: 48px;
+  margin-top: 42px;
 }
 .home__sub-heading-container {
   margin-top: 48px;
 }
 .home__left-section {
   height: 100%;
-  width: 100%;
+  width: 62vw;
   background-color: #99a7ff;
   background-image: radial-gradient(
       at 72% 33%,
@@ -25,7 +26,6 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  gap: 100px;
 }
 
 .home__hand {
@@ -36,4 +36,39 @@
   width: 118%;
   display: flex;
   justify-content: flex-end;
+}
+.home__input {
+  margin-top: 100px;
+}
+@media only screen and (max-width: 1000px) {
+  .home,
+  .stocks,
+  .watchlist,
+  .about,
+  .details {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .home__left-section {
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .home__hand {
+    position: relative;
+    left: 6vw;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .home__hand {
+    height: 200px;
+    top: 60px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .home__hand {
+    height: 200px;
+    left: 25vw;
+  }
 }

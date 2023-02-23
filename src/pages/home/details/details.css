@@ -8,8 +8,38 @@
   column-gap: 9vw;
   row-gap: 14px;
 }
+.details__left-section {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+.details__left-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+.company-info__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-to-watchlist-btn {
+  all: unset;
+  font-weight: 700;
+  font-size: 12px;
+  color: rgb(132, 0, 255);
+  cursor: pointer;
+  text-align: end;
+}
+/*
+
 .details__stock-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.details__left-section {
+  width: 100%;
+} */

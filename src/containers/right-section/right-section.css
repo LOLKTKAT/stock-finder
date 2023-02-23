@@ -2,4 +2,64 @@
   width: 38vw;
   padding: 16px 42px 0px 42px;
   height: 100vh;
+  background-color: white;
+  border-left: 1px solid rgb(209, 209, 209);
+  overflow: hidden;
+  z-index: 100;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+  display: block;
+}
+
+.right-section::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+/* .hide {
+  display: none;
+} */
+/* .hide-btn {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+} */
+/* .show {
+  display: block;
+} */
+.hide-btn {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hide-side-bar {
+    display: none;
+  }
+  .show-side-bar {
+    display: block;
+    -webkit-box-shadow: -8px 0px 23px -10px rgba(217, 217, 217, 1);
+    -moz-box-shadow: -8px 0px 23px -10px rgba(217, 217, 217, 1);
+    box-shadow: -8px 0px 23px -10px rgba(217, 217, 217, 1);
+    position: absolute;
+    right: 0px;
+    width: 50vw;
+  }
+  .hide-btn {
+    all: unset;
+    display: block;
+    right: 39px;
+    top: 13px;
+    position: absolute;
+    background-color: white;
+    padding: 3px;
+    border-radius: 50px;
+  }
+
+  .hide-btn {
+    text-align: end;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .show-side-bar {
+    width: 100vw;
+  }
 }

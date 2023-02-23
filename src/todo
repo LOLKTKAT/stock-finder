@@ -1,0 +1,7 @@
+
+
+1. save watchlist to localstorage
+2. display the items from localstorage
+
+
+create a global array to save watch list

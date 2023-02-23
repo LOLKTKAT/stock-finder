@@ -1,0 +1,24 @@
+.logo {
+  border: 2px solid black;
+  border-style: double;
+  padding: 3px;
+  width: fit-content;
+  cursor: pointer;
+  transition: 150ms ease-out;
+  color: black;
+}
+.logo h3 {
+  font-size: 24px;
+}
+.logo:hover {
+  transform: rotate(15deg);
+}
+.logo:active {
+  scale: 0.9;
+}
+.logo-light {
+  position: fixed;
+  margin-bottom: -10vw;
+  border: 2px solid white;
+  color: white;
+}

@@ -1,0 +1,57 @@
+.stock-card {
+  aspect-ratio: 1.6 / 1;
+  width: 26vw;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  border-radius: 25px;
+  color: white;
+  padding: 0 20px 0 20px;
+  background-image: linear-gradient(45deg, #d585d6, #8876e2);
+  transition: 150ms ease-out;
+}
+.stock-card:hover {
+  transform: translateX(5px);
+}
+.stock-card__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meat-ball-menu {
+  margin-top: -12px;
+}
+.stock-card__stock-icon {
+  aspect-ratio: 1;
+  height: 32px;
+  border-radius: 50%;
+}
+.stock-card__p-change-container {
+  display: flex;
+  gap: 5px;
+}
+
+.stock-card__heading-container:hover {
+  transition: 100ms ease-out;
+}
+
+.stock-card__heading-container:hover {
+  opacity: 0.7;
+}
+@media only screen and (max-width: 700px) {
+  .stock-card {
+    width: 40vw;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .stock-card {
+    width: 85vw;
+  }
+  .stock-card h3 {
+    font-size: 48px;
+  }
+  .stock-card h4 {
+    font-size: 12px;
+  }
+}
