@@ -3,23 +3,15 @@ import LeftSection from "../../containers/left-section/LeftSection";
 import RightSection from "../../containers/right-section/RightSection";
 import LeftNavBar from "../../containers/left-nav-bar/LeftNavBar";
 import { motion } from "framer-motion";
-import StockCard from "../../components/stock-card/StockCard";
-import { UserContext } from "../../UserContext";
 import { Link } from "react-router-dom";
 import "./watchlist.css";
 import WatchListCard from "./WatchListCard";
 
 const WatchList = () => {
-  const { watchListSymbols, setWatchListSymbols } = useContext(UserContext);
-  // const a = localStorage.setItem("symbols", JSON.stringify(watchListSymbols));
   const [localStorageSymbols, setLocalStorageSymbols] = useState(() => {
     const localData = localStorage.getItem("symbols");
     return localData ? JSON.parse(localData) : [];
   });
-
-  useEffect(() => {
-    console.log(localStorageSymbols);
-  }, []);
 
   return (
     <div className="watchlist">
